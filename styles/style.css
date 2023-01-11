@@ -1,0 +1,307 @@
+/* IMPORTANDO ESTILOS DE FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+/* CABECERA */    
+/* ESTO ES PARA MODIFICAR LO PREDETERMINADO */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1380px;
+  min-width: 320px;
+  cursor: default;
+}
+
+body {
+  background: black;
+}
+
+/* ESTO ES PARA ESTILIZAR EL SCROLL */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 43, 43);
+  border-radius: 50px;
+  border: 1px, solid;
+}
+
+/* ESTO VA PARA ESTILIZAR LA CABECERA */
+header {
+  background-color: #121212;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ff0000' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+  padding-top: 60px;
+  padding-bottom: 100px;
+  width: 100vw;
+  max-width: 1321px;
+  min-width: 320px;
+  border-bottom: #000000;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  max-width: 1313px;
+  min-width: 320px;
+  margin: auto;
+}
+
+#Logo {
+  width: 60%;
+}
+
+/* PARA ESTILIZAR EL BOTON */
+#Dely a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(17, 17, 17);
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  border: 3px rgb(39, 28, 15) solid;
+  width: 20%;
+}
+
+#Dely a:hover {
+  background: #2e1e1e;
+  transition: 1.2s;
+  color: #ffe46d;
+}
+
+/* EL INICIO DE LA APERTURA */
+/* PARA COLOCAR RESPONSIVE */
+#Part2 {
+  background: url(IMG/Local.jpg);
+  width: 100vw;
+  max-width: 1321px;
+  min-width: 320px;
+  border-top: #000000 5px solid;
+  padding-bottom: 60px;
+}
+
+/* ESTILIZAR LAS LETRAS */
+
+#TXI {
+  text-align: center;
+  color: #ffffff;
+  max-width: 900px;
+  min-width: 40px;
+  width: 78vw;
+  padding: 20px;
+  margin: auto;
+  margin-top: 480px;
+  background: #000000af;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #000000da;
+}
+
+#TXI h1 {
+  font-size: 90px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 90px;
+  width: 100%;
+  text-shadow: 5px 5px 3px #000000;
+}
+
+#TXI h3 {
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 60px;
+  width: 100%;
+  margin-top: 30px;
+  text-shadow: 5px 5px 3px #000000;
+}
+
+/* ESTILIZANDO LA PARTE DE LAS ATRACCIONES */
+#Mostra {
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ff0000' fill-opacity='0.47'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.Paf1 {
+  width: 100vw;
+  max-width: 1270px;
+  min-width: 320px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 35px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.Paf1 img {
+  width: 60%;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.Paf1 p {
+  width: 95vw;
+  font-size: 40px;
+}
+
+.Paf2 {
+  width: 100vw;
+  max-width: 1270px;
+  min-width: 320px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 35px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 20px;
+}
+
+.Paf2 img {
+  width: 10vw;
+  margin-left:  50px;
+  border-radius: 5px;
+}
+
+.Paf2 p {
+  width: 95vw;
+  font-size: 40px;
+}
+
+/* PARA ESTILIZAR EL VERIFICADO DE RESERVA */
+#Part3 {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ff0000' fill-opacity='0.47'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;;
+}
+
+#FNL {
+  background: white;
+  padding: 40px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;;
+  border-radius: 20px;
+  width: 55vw;
+}
+
+#FNL h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#DX {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(17, 17, 17);
+  border: rgb(39, 28, 15) 3px solid;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  width: 20%;
+  text-decoration: none;
+  width: 20%;
+}
+
+#DX:hover {
+  background: #2e1e1e;
+  transition: 1.2s;
+  color: #ffe46d;
+}
+
+@media (max-width: 435px) {
+
+  header {
+    width: 100vw;
+    max-width: 435px;
+  }
+
+  #Part2 {
+    width: 100%;
+    background: url(IMG/LocalMQ.jpg);
+    height: auto;
+  }
+
+  #TXI {
+    width: 83vw;
+    margin-top: 250px;
+  }
+
+  #TXI h1 {
+    font-size: 20px;
+    line-height: 20px;
+    width: 25vw;
+  }
+
+  #TXI h3 {
+    font-size: 20px;
+    line-height: 20px;
+    width: 25vw;
+    margin-top: 10px;
+  }
+
+  .Paf1 {
+  width: 90vw;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.Paf1 img {
+  width: 60%;
+  margin-right: 0;
+}
+
+.Paf1 p {
+  width: 60vw;
+  font-size: 20px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Paf2 {
+  width: 90vw;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+}
+
+.Paf2 img {
+  width: 60%;
+  margin-left: 0;
+}
+
+.Paf2 p {
+  width: 60vw;
+  font-size: 20px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#FNL {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#FNL h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+}
